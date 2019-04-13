@@ -95,12 +95,12 @@ class Criterion(object):
         raise NotImplementedError
 
 
-class SquaredError(Criterion):
+class MSE(Criterion):
     """
     Standart loss function: sum of squarred errors
     """
     def __init__(self):
-        super(SquaredError, self).__init__()
+        super(MSE, self).__init__()
 
     def forward(self, a, y):
         self.logits = a
@@ -206,7 +206,7 @@ class MLP(object):
     def __init__(self, rng,
                  structure,
                  act_func,
-                 criterion=SquaredError()):
+                 criterion=MSE()):
         self.hiddenLayer = [Layer(rng=rng,
                                   n_in=structure[i],
                                   n_out=structure[i+1],
