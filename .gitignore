@@ -58,3 +58,5 @@ docs/_build/
 target/
 
 MNIST/data/
+
+Music_Recomender/data/hetrec2011-lastfm-2k/
