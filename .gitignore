@@ -72,3 +72,5 @@ titanic/catboost_info/
 titanic/data/
 
 titanic/\.ipynb_checkpoints/
+
+MNIST/\.ipynb_checkpoints/
