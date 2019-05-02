@@ -60,3 +60,15 @@ target/
 MNIST/data/
 
 Music_Recomender/data/hetrec2011-lastfm-2k/
+
+Music_Recomender/data/
+
+Music_Recomender/\.ipynb_checkpoints/
+
+*.tmp
+
+titanic/catboost_info/
+
+titanic/data/
+
+titanic/\.ipynb_checkpoints/
