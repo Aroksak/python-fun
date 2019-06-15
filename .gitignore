@@ -76,3 +76,7 @@ titanic/\.ipynb_checkpoints/
 MNIST/\.ipynb_checkpoints/
 
 TASD/data/
+
+SuperMarioRL/
+
+Surprise_Recommender/data/
