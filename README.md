@@ -11,7 +11,7 @@ Currently available projects:
 - TASD
 - titanic
 
-##2048
+## 2048
 Artificial Intelligence based on Monte-Carlo approach, aiming to score best result in the game of 2048. Both the game itself and the algorithm were implemented.
 Based on: https://habr.com/ru/company/edison/blog/437118/
 
